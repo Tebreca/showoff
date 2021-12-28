@@ -3,12 +3,17 @@
  */
 package com.tebreca.showoff;
 
+import com.tebreca.showoff.edabit.Encrypt;
+import com.tebreca.showoff.wordbucket.Bucketer;
+
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        System.out.println(Encrypt.encrypt("chill out"));
+        System.out.println(Bucketer.bucketize("she sells sea shells by the sea", 10));
     }
 }
