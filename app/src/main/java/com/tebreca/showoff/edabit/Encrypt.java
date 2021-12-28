@@ -7,6 +7,10 @@ import java.util.Arrays;
  */
 public class Encrypt {
 
+    private Encrypt(){
+
+    }
+
     public static String encrypt(String s) {
         s = s.replace("\s", "");
         double root = Math.sqrt(s.length());

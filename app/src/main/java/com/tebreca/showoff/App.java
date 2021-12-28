@@ -8,12 +8,11 @@ import com.tebreca.showoff.wordbucket.Bucketer;
 
 
 public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
 
     public static void main(String[] args) {
         System.out.println(Encrypt.encrypt("chill out"));
-        System.out.println(Bucketer.bucketize("she sells sea shells by the sea", 10));
+        System.out.println(Bucketer.bucketize("the mouse jumped over a cheese wheel", 13));
     }
+
+
 }
