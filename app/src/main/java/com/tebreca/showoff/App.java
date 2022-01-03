@@ -3,6 +3,7 @@
  */
 package com.tebreca.showoff;
 
+import com.tebreca.showoff.anagram.AnagramFinder;
 import com.tebreca.showoff.edabit.Encrypt;
 import com.tebreca.showoff.hash.Hasher;
 import com.tebreca.showoff.lambdaChallenge.LambdaSupplier;
@@ -34,6 +35,9 @@ public class App {
         }
         System.out.println(Arrays.toString(palindromeNumbers.toArray()));
         System.out.println(Hasher.hashSha256("AVEryStrongPassword2"));
+
+        System.out.println(AnagramFinder.findAnagram("My world evolves in a beautiful space called Tesh.", "sworn love lived"));
+        System.out.println(AnagramFinder.findAnagram("An old west action hero actor", "Clint Eastwood"));
     }
 
 
