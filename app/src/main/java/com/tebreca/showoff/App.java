@@ -9,6 +9,7 @@ import com.tebreca.showoff.hash.Hasher;
 import com.tebreca.showoff.lambdaChallenge.LambdaSupplier;
 import com.tebreca.showoff.primeChecker.PrimeChecker;
 import com.tebreca.showoff.wordbucket.Bucketer;
+import com.tebreca.showoff.wordconnector.WordConnector;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -38,6 +39,8 @@ public class App {
 
         System.out.println(AnagramFinder.findAnagram("My world evolves in a beautiful space called Tesh.", "sworn love lived"));
         System.out.println(AnagramFinder.findAnagram("An old west action hero actor", "Clint Eastwood"));
+
+        System.out.println(WordConnector.join("oven", "envier", "erase", "serious"));
     }
 
 

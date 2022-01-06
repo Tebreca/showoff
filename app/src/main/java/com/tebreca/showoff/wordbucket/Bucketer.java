@@ -11,7 +11,6 @@ public class Bucketer {
 
     }
 
-
     public static String bucketize(String s, int n) {
         String[] split = s.split(" ");
         Deque<String> words = new ArrayDeque<>(Arrays.asList(split));
