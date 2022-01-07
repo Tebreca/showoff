@@ -1,4 +1,4 @@
-package com.tebreca.showoff.edabit;
+package com.tebreca.showoff.encryptor;
 
 import java.util.Arrays;
 

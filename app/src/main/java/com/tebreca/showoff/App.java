@@ -4,7 +4,7 @@
 package com.tebreca.showoff;
 
 import com.tebreca.showoff.anagram.AnagramFinder;
-import com.tebreca.showoff.edabit.Encrypt;
+import com.tebreca.showoff.encryptor.Encrypt;
 import com.tebreca.showoff.hash.Hasher;
 import com.tebreca.showoff.lambdaChallenge.LambdaSupplier;
 import com.tebreca.showoff.primeChecker.PrimeChecker;
