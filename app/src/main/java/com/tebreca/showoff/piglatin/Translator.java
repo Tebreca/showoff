@@ -20,6 +20,9 @@ public class Translator {
         s = s.toLowerCase();
         String[] split = s.split(vowel, 2);
         if (s.startsWith(vowel)) {
+            if (flag) {
+                s = capitalize(s);
+            }
             return profile.apply(s + "yay");
         }
         String stripped = vowel + split[1] + split[0] + "ay";
