@@ -47,7 +47,7 @@ public class Translator {
         public enum Position{
             FRONT, BACK;
 
-            //just moving all punctuation from the middle of words too, as the challenge does not specify anything about it,
+            //just moving all punctuation from the middle of words too, as the challenge does not specify anything about it, and this keeps the code tidier
             public static Position getFromIndex(int index, int length){
                 if(index > Math.sqrt(length)){
                     return BACK;
